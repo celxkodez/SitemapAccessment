@@ -10,8 +10,15 @@
   "author": "Celestine Stephen",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.26.1",
     "body-parser": "^1.19.2",
+    "chalk": "^5.0.1",
+    "commander": "^9.1.0",
+    "conf": "^10.1.1",
     "express": "^4.17.3",
     "nodemon": "^2.0.15"
+  },
+  "bin": {
+    "client": "./client/index.js"
   }
 }
