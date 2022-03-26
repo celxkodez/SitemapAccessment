@@ -27,7 +27,7 @@ module.exports = {
             console.log(response.data)
         } catch (e) {
             console.log('==== Error response ===')
-            console.log(e)
+            console.log(e.message)
         }
     },
 
